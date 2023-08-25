@@ -1,0 +1,22 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.product-list {
+  text-align: center;
+  padding: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
